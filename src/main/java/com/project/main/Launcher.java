@@ -1,5 +1,7 @@
 package com.project.main;
 
+import javafx.application.Application;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -50,6 +52,6 @@ public class Launcher {
         System.out.println(loadResourceAnywhere("test.txt"));
         // The App I actually want to launch
         //  V V V V V V V V V
-        // Application.launch(App.class,args);
+        Application.launch(App.class,args);
     }
 }

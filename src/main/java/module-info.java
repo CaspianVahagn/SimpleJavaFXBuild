@@ -1,6 +1,3 @@
-module SimpleJavaFXBuild{
-    requires javafx.controls;
-    requires javafx.fxml;
-    requires transitive javafx.graphics;
+module myModule{
     opens com.project.main;
 }
